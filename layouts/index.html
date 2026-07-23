@@ -1,53 +1,86 @@
 {{ define "main" }}
 
-<header class="w-full h-screen relative" id="hero">
+<header class="w-full min-h-screen relative overflow-hidden" id="hero">
   <img
-    class="absolute w-full h-screen object-cover -z-1 opacity-[0.1]"
+    class="absolute w-full h-full object-cover -z-1 opacity-[0.1]"
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Raden_Saleh_-_Diponegoro_arrest.jpg/1280px-Raden_Saleh_-_Diponegoro_arrest.jpg"
     alt="Lukisan Penangkapan Pangeran Diponegoro (digunakan sebagai background)">
-  <div class="absolute -z-1 w-9/20 h-screen border-r-1 border-blue-900"></div>
+  <div class="absolute w-9/20 h-full border-r-1 border-blue-900 hidden xl:block"></div>
   {{ $napoleonImage := resources.Get "decoration/Napoleon Crossing The Alps.webp" }}
   <img
-    class="absolute translate-x-[64px] bottom-0 right-0 h-screen"
+    class="hidden lg:block absolute translate-x-[64px] bottom-0 right-0 h-screen w-auto object-cover origin-bottom-right scale-75 xl:scale-100"
     src="{{ $napoleonImage.RelPermalink }}"
     alt="A painting of Napoleon crossing the alps">
-  <div class="absolute ml-[56px] mt-[171px]">
-    <h1 class="text-blue-950 text-[64px]/[77px] font-semibold flex flex-col">
+  <div class="absolute -translate-x-1/2 left-1/2 lg:-translate-x-0 lg:left-0 min-w-[350px] w-fit mt-[128px] lg:mx-[56px] lg:mt-[171px]">
+    <h1 class="text-blue-950 text-[36px]/[42px] lg:text-[64px]/[77px] font-semibold flex flex-col">
       <span>Membahas Sejarah</span>
       <span>Peristiwa-Peristiwa</span>
       <span>Menarik Pada</span>
       <span>Setiap Bulannya.</span>
     </h1>
-    <span class="text-blue-950 text-[32px] font-semibold block mt-[24px]">Salutations, Luna Historien!</span>
+    <span class="text-blue-950 text-[20px] lg:text-[32px] font-semibold block mt-4 lg:mt-[24px]">Salutations, Luna Historien!</span>
     <a
-      class="font-semibold inline-block px-[25px] py-[16px] mt-[32px] text-white bg-blue-900 border-blue-950 border-1 inset-shadow-sm transition
+      class="font-semibold inline-block px-5 py-4 lg:px-[25px] lg:py-[16px] mt-6 lg:mt-[32px] text-white bg-blue-900 border-blue-950 border-1 inset-shadow-sm transition
               hover:bg-blue-700 hover:border-blue-600"
       href="#latest-article">See Our Latest Article →</a>
+    <div class="mt-8 lg:hidden">
+      <p class="text-sm font-semibold text-slate-800 mb-2">See us on other Platform</p>
+      <div class="flex items-center gap-3 text-slate-900">
+        <a href="https://youtube.com/@LunaHistorie" class="hover:opacity-70 transition-opacity">
+          {{ $youtubeIcon := resources.Get "icons/YT.png" }}
+          <img width="20" src="{{ $youtubeIcon.RelPermalink }}" alt="YouTube">
+        </a>
+        <a href="https://tiktok.com/@lunahistorie" class="hover:opacity-70 transition-opacity">
+          {{ $tiktokIcon := resources.Get "icons/TikTok.png" }}
+          <img width="20" src="{{ $tiktokIcon.RelPermalink }}" alt="TikTok">
+        </a>
+        <a href="https://instagram.com/@luna_historie" class="hover:opacity-70 transition-opacity">
+          {{ $instagramIcon := resources.Get "icons/IG.png" }}
+          <img width="20" src="{{ $instagramIcon.RelPermalink }}" alt="Instagram">
+        </a>
+        <a href="https://facebook.com/profile.php?id=61591925993777&locale=id_ID" class="hover:opacity-70 transition-opacity">
+          {{ $facebookIcon := resources.Get "icons/Facebook.png" }}
+          <img width="20" src="{{ $facebookIcon.RelPermalink }}" alt="Facebook">
+        </a>
+        <a href="https://threads.com/@luna_historie" class="hover:opacity-70 transition-opacity">
+          {{ $threadsIcon := resources.Get "icons/Threads.png" }}
+          <img width="20" src="{{ $threadsIcon.RelPermalink }}" alt="Threads">
+        </a>
+        <a href="https://x.com/LunaHistorie" class="hover:opacity-70 transition-opacity">
+          {{ $xIcon := resources.Get "icons/X.png" }}
+          <img width="20" src="{{ $xIcon.RelPermalink }}" alt="X (Twitter)">
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="absolute bottom-0 ml-[56px] mb-[56px]">
+  <img
+    class="relative lg:hidden h-[60vh] opacity-80 object-cover mt-[60vh]"
+    src="{{ $napoleonImage.RelPermalink }}"
+    alt="A painting of Napoleon crossing the alps">
+  <div class="hidden lg:block absolute bottom-0 ml-[56px] mb-[56px]">
     <p class="text-sm font-semibold text-slate-800 mb-2">See us on other Platform</p>
     <div class="flex items-center gap-3 text-slate-900">
-      <a href="#" class="hover:opacity-70 transition-opacity">
+      <a href="https://youtube.com/@LunaHistorie" class="hover:opacity-70 transition-opacity">
         {{ $youtubeIcon := resources.Get "icons/YT.png" }}
         <img width="20" src="{{ $youtubeIcon.RelPermalink }}" alt="YouTube">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity">
+      <a href="https://tiktok.com/@lunahistorie" class="hover:opacity-70 transition-opacity">
         {{ $tiktokIcon := resources.Get "icons/TikTok.png" }}
         <img width="20" src="{{ $tiktokIcon.RelPermalink }}" alt="TikTok">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity">
+      <a href="https://instagram.com/@luna_historie" class="hover:opacity-70 transition-opacity">
         {{ $instagramIcon := resources.Get "icons/IG.png" }}
         <img width="20" src="{{ $instagramIcon.RelPermalink }}" alt="Instagram">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity">
+      <a href="https://facebook.com/profile.php?id=61591925993777&locale=id_ID" class="hover:opacity-70 transition-opacity">
         {{ $facebookIcon := resources.Get "icons/Facebook.png" }}
         <img width="20" src="{{ $facebookIcon.RelPermalink }}" alt="Facebook">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity">
+      <a href="https://threads.com/@luna_historie" class="hover:opacity-70 transition-opacity">
         {{ $threadsIcon := resources.Get "icons/Threads.png" }}
         <img width="20" src="{{ $threadsIcon.RelPermalink }}" alt="Threads">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity">
+      <a href="https://x.com/LunaHistorie" class="hover:opacity-70 transition-opacity">
         {{ $xIcon := resources.Get "icons/X.png" }}
         <img width="20" src="{{ $xIcon.RelPermalink }}" alt="X (Twitter)">
       </a>
@@ -55,17 +88,17 @@
   </div>
 </header>
 
-<section id="latest-article" class="min-h-screen px-[60px] py-[100px]">
-  <h2 class="font-semibold text-[128px] text-blue-950">Latest Article</h2>
-  <article class="flex flex-row gap-[48px]">
+<section id="latest-article" class="min-h-screen px-4 lg:px-10 lg:px-[60px] py-16 lg:py-[100px]">
+  <h2 class="font-semibold text-[48px] lg:text-[80px] lg:text-[128px] text-blue-950">Latest Article</h2>
+  <article class="flex flex-col lg:flex-row gap-6 lg:gap-[48px]">
     {{ range first 1 (where .Site.RegularPages "Section" "articles") }}
       {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}" class="w-1/2 object-cover aspect-1/1">
+        <img src="{{ . }}" alt="{{ $.Title }}" class="w-full lg:w-1/2 object-cover aspect-1/1">
       {{ end }}
       <div>
-        <h3 class="text-[48px]/14 font-semibold mb-[24px]">{{ .Title }} — {{ .Date.Format "2 Jan 2006" }}</h3>
-        <p class="text-justify pb-[48px]">{{ .Summary }}</p>
-        <a class="block font-semibold p-4 bg-gray-200 border-1 border-gray-400 w-2/3 inset-shadow-md transition
+        <h3 class="text-[28px] lg:text-[48px]/14 font-semibold mb-4 lg:mb-[24px]">{{ .Title }} — {{ .Date.Format "2 Jan 2006" }}</h3>
+        <p class="text-justify pb-8 lg:pb-[48px]">{{ .Summary }}</p>
+        <a class="block font-semibold p-4 bg-gray-200 border-1 border-gray-400 w-full lg:w-2/3 inset-shadow-lg transition
                   hover:bg-slate-300 hover:border-slate-500"
           href="{{ .RelPermalink }}">Baca Selengkapnya →</a>
       </div>
@@ -73,23 +106,23 @@
   </article>
 </section>
 
-<section id="articles" class="min-h-screen px-[60px] py-[100px]">
-  <div class="grid grid-cols-3 gap-4">
+<section id="articles" class="min-h-screen px-4 md:px-10 lg:px-[60px] py-16 md:py-[100px]">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
     {{ range first 12 (where .Site.RegularPages "Section" "articles") }}
       <a href="{{ .RelPermalink }}" class="group block aspect-1/1 relative">
         {{ with .Params.image }}
-          <img src="{{ . }}" alt="{{ $.Title }}" class="absolute object-cover aspect-1/1">
+          <img src="{{ . }}" alt="{{ $.Title }}" class="absolute object-cover aspect-1/1 w-full h-full">
         {{ end }}
         <div class="absolute h-3/4 w-full bottom-0 p-4 bg-linear-to-t from-white/100 to-gray-200/0 transition group-hover:from-blue-950/100 group-hover:to-blue-900/0 border-b-1 flex flex-col justify-end">
-          <h3 class="text-[24px]/8 font-semibold transition group-hover:text-white">{{ .Title }} — {{ .Date.Format "2 Jan 2006" }}</h3>
-          <p class="text-right transition group-hover:text-white">Baca Selengkapnya →</p>
+          <h3 class="text-lg md:text-[24px]/8 font-semibold transition group-hover:text-white">{{ .Title }} — {{ .Date.Format "2 Jan 2006" }}</h3>
+          <p class="text-right transition group-hover:text-white text-sm">Baca Selengkapnya →</p>
         </div>
       </a>
       {{ end }}
   </div>
 </section>
 
-<section id="socials" class="min-h-screen px-[60px] py-[100px] relative">
+<section id="socials" class="min-h-screen px-4 md:px-10 lg:px-[60px] py-16 md:py-[100px] relative overflow-hidden">
   {{ $davidStatueImage := resources.Get "decoration/Statue of David.png" }}
   <img
     class="absolute bottom-0 left-0 w-full aspect-21/9 object-cover -z-1 opacity-25"
@@ -97,13 +130,13 @@
     alt="Painting of the starry night">
   <div class="absolute bottom-0 left-0 w-full aspect-21/9 object-cover bg-linear-to-b from-white/100 to-gray-200/0 -z-1"></div>
   <img
-    class="absolute -translate-x-[196px] bottom-0 left-0 h-screen opacity-50 object-cover -z-1"
+    class="hidden lg:block absolute -translate-x-[196px] bottom-0 left-0 h-screen opacity-50 object-cover -z-1"
     src="{{ $davidStatueImage.RelPermalink }}"
     alt="A painting of Napoleon crossing the alps">
-  <h2 class="text-[128px] text-blue-950 text-right font-semibold">Our Socials</h2>
-  <div class="w-full flex flex-row justify-end gap-6">
-    <div class="w-1/4 text-right">
-      <h3 class="text-2xl font-semibold mt-12">Un Petite About Us</h3>
+  <h2 class="text-[48px] md:text-[80px] lg:text-[128px] lg:text-right text-blue-950 font-semibold">Our Socials</h2>
+  <div class="w-full flex flex-col lg:flex-row justify-end gap-6 lg:gap-6">
+    <div class="w-full lg:w-1/4 text-left lg:text-right">
+      <h3 class="text-2xl font-semibold mt-8 lg:mt-12">Un Petite About Us</h3>
       <p>
         Kami berkomitmen untuk terus membuat dan membagikan sejarah dalam format
         yang menarik dan ringan, sehingga para Gen Z tidak akan melupakan kesalahan
@@ -116,30 +149,56 @@
         <span>lunahistorie@gmail.com</span>
       </address>
     </div>
-    <div class="w-1/4 grid grid-cols-2">
-      <a href="#" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+    <div class="w-full lg:w-1/4 grid-cols-3 lg:grid-cols-2 hidden md:grid">
+      <a href="https://youtube.com/@LunaHistorie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
         {{ $youtubeSocialIcon := resources.Get "icons/socials-blue/YT.png" }}
         <img width="100" src="{{ $youtubeSocialIcon.RelPermalink }}" alt="YouTube">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+      <a href="https://tiktok.com/@lunahistorie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
         {{ $tiktokSocialIcon := resources.Get "icons/socials-blue/TikTok.png" }}
         <img width="100" src="{{ $tiktokSocialIcon.RelPermalink }}" alt="TikTok">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+      <a href="https://instagram.com/@luna_historie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
         {{ $instagramSocialIcon := resources.Get "icons/socials-blue/IG.png" }}
         <img width="100" src="{{ $instagramSocialIcon.RelPermalink }}" alt="Instagram">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+      <a href="https://facebook.com/profile.php?id=61591925993777&locale=id_ID" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
         {{ $facebookSocialIcon := resources.Get "icons/socials-blue/Facebook.png" }}
         <img width="100" src="{{ $facebookSocialIcon.RelPermalink }}" alt="Facebook">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+      <a href="https://threads.com/@luna_historie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
         {{ $threadsSocialIcon := resources.Get "icons/socials-blue/Threads.png" }}
         <img width="100" src="{{ $threadsSocialIcon.RelPermalink }}" alt="Threads">
       </a>
-      <a href="#" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+      <a href="https://x.com/LunaHistorie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
         {{ $xSocialIcon := resources.Get "icons/socials-blue/X.png" }}
         <img width="100" src="{{ $xSocialIcon.RelPermalink }}" alt="X (Twitter)">
+      </a>
+    </div>
+    <div class="w-full lg:w-1/4 grid-cols-3 grid md:hidden">
+      <a href="https://youtube.com/@LunaHistorie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+        {{ $youtubeSocialIcon := resources.Get "icons/socials-blue/YT.png" }}
+        <img width="50" src="{{ $youtubeSocialIcon.RelPermalink }}" alt="YouTube">
+      </a>
+      <a href="https://tiktok.com/@lunahistorie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+        {{ $tiktokSocialIcon := resources.Get "icons/socials-blue/TikTok.png" }}
+        <img width="50" src="{{ $tiktokSocialIcon.RelPermalink }}" alt="TikTok">
+      </a>
+      <a href="https://instagram.com/@luna_historie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+        {{ $instagramSocialIcon := resources.Get "icons/socials-blue/IG.png" }}
+        <img width="50" src="{{ $instagramSocialIcon.RelPermalink }}" alt="Instagram">
+      </a>
+      <a href="https://facebook.com/profile.php?id=61591925993777&locale=id_ID" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+        {{ $facebookSocialIcon := resources.Get "icons/socials-blue/Facebook.png" }}
+        <img width="50" src="{{ $facebookSocialIcon.RelPermalink }}" alt="Facebook">
+      </a>
+      <a href="https://threads.com/@luna_historie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+        {{ $threadsSocialIcon := resources.Get "icons/socials-blue/Threads.png" }}
+        <img width="50" src="{{ $threadsSocialIcon.RelPermalink }}" alt="Threads">
+      </a>
+      <a href="https://x.com/LunaHistorie" class="hover:opacity-70 transition-opacity aspect-1/1 grid place-items-center">
+        {{ $xSocialIcon := resources.Get "icons/socials-blue/X.png" }}
+        <img width="50" src="{{ $xSocialIcon.RelPermalink }}" alt="X (Twitter)">
       </a>
     </div>
   </div>

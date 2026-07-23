@@ -1,9 +1,9 @@
-<nav class="fixed z-99 w-full flex items-center justify-between pl-[16px] pr-[32px] py-1 bg-white/30 backdrop-blur-md border-b-1 border-blue-900">
+<nav class="fixed z-99 w-full flex items-center justify-between pl-3 pr-4 md:pl-[16px] md:pr-[32px] py-1 bg-white/30 backdrop-blur-md border-b-1 border-blue-900">
   <div>
     <a class="flex items-center" href="/">
       {{ $brandLogo := resources.Get "brand/Brand Logo (512px) (invert) (transparent).png" }}
-      <img class="h-[64px]" src="{{ $brandLogo.RelPermalink }}" alt="Luna Historie">
-      <span class="font-semibold text-blue-900">Luna Historie</span>
+      <img class="h-[48px] md:h-[64px]" src="{{ $brandLogo.RelPermalink }}" alt="Luna Historie">
+      <span class="font-semibold text-blue-900 text-sm md:text-base">Luna Historie</span>
     </a>
   </div>
   <nav class="hidden md:flex items-center gap-10 text-blue-900 font-semibold">
@@ -12,4 +12,53 @@
     <a href="/articles/" class="hover:text-blue-700 transition-colors">Articles</a>
     <a href="/socials/" class="hover:text-blue-700 transition-colors">Socials</a>
   </nav>
+  <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2 z-110" aria-label="Toggle menu">
+    <span id="bar1" class="block w-6 h-0.5 bg-blue-900 transition-all duration-300"></span>
+    <span id="bar2" class="block w-6 h-0.5 bg-blue-900 transition-all duration-300"></span>
+    <span id="bar3" class="block w-6 h-0.5 bg-blue-900 transition-all duration-300"></span>
+  </button>
 </nav>
+
+<div id="mobile-menu" class="fixed inset-0 z-100 bg-white/95 backdrop-blur-md hidden flex-col items-center justify-center gap-8 text-blue-900 font-semibold text-2xl">
+  <button class="absolute top-4 right-4 p-2" aria-label="Close menu" onclick="closeMenu()">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+    </svg>
+  </button>
+  <a href="/" class="hover:text-blue-700 transition-colors" onclick="closeMenu()">Home</a>
+  <a href="/about/" class="hover:text-blue-700 transition-colors" onclick="closeMenu()">About</a>
+  <a href="/articles/" class="hover:text-blue-700 transition-colors" onclick="closeMenu()">Articles</a>
+  <a href="/socials/" class="hover:text-blue-700 transition-colors" onclick="closeMenu()">Socials</a>
+</div>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const bar1 = document.getElementById('bar1');
+  const bar2 = document.getElementById('bar2');
+  const bar3 = document.getElementById('bar3');
+
+  function openMenu() {
+    menu.classList.remove('hidden');
+    menu.classList.add('flex');
+    bar1.classList.add('rotate-45', 'translate-y-2');
+    bar2.classList.add('opacity-0');
+    bar3.classList.add('-rotate-45', '-translate-y-2');
+  }
+
+  function closeMenu() {
+    menu.classList.add('hidden');
+    menu.classList.remove('flex');
+    bar1.classList.remove('rotate-45', 'translate-y-2');
+    bar2.classList.remove('opacity-0');
+    bar3.classList.remove('-rotate-45', '-translate-y-2');
+  }
+
+  toggle.addEventListener('click', () => {
+    if (menu.classList.contains('hidden')) {
+      openMenu();
+    } else {
+      closeMenu();
+    }
+  });
+</script>

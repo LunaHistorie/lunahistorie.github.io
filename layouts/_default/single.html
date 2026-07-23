@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<article class="max-w-[768px] mx-auto pt-[128px]">
+<article class="max-w-[768px] mx-auto pt-[80px] md:pt-[128px] px-4 md:px-0">
 
   <a href="/articles/" class="block border-b-1 p-2 mb-[48px] transition hover hover:text-blue-900">← Lihat Artikel Lainnya</a>
 
   <div class="text-center">
-    <h1 class="text-[64px]/[70px] text-blue-900 font-semibold">{{ .Title }}</h1>
+    <h1 class="text-[36px]/[42px] md:text-[64px]/[70px] text-blue-900 font-semibold">{{ .Title }}</h1>
     <p class="text-lg">{{ .Date.Format "02 January 2006" }}</p>
   </div>
 
@@ -37,8 +37,8 @@
 
 {{ $sorted := sort $withDiff "diff" "asc" }}
 
-<div class="max-w-[768px] mx-auto mt-[128px]">
-  <h3 class="text-[32px] text-center text-blue-900 font-semibold mb-[32px]">Artikel Lainnya</h3>
+<div class="max-w-[768px] mx-auto mt-[64px] md:mt-[128px] px-4 md:px-0">
+  <h3 class="text-[24px] md:text-[32px] text-center text-blue-900 font-semibold mb-[32px]">Artikel Lainnya</h3>
   <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
   {{ range first 5 $sorted }}
     {{ $p := .page }}
