@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<article class="max-w-[768px] mx-auto pt-[128px]">
+
+  <a href="/" class="block border-b-1 p-2 mb-[48px] transition hover hover:text-blue-900">← Kembali ke Halaman Utama</a>
+
+  <div class="text-center">
+    <h1 class="text-[80px] text-blue-900 font-semibold">{{ .Title }}</h1>
+    <p class="text-lg">{{ .Date.Format "02 January 2006" }} — tanggal berdirinya Luna Historie</p>
+  </div>
+
+  {{ with .Params.image }}
+    <img src="{{ . }}" alt="" class="block my-[32px] object-contain border-b-1">
+  {{ end }}
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  <a href="/" class="block border-b-1 p-2 mt-[48px] transition hover hover:text-blue-900">← Kembali ke Halaman Utama</a>
+
+</article>
+
+<div class="h-[256px]"></div>
+
+{{ end }}

@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<style>
+  .content a {
+    display: block;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    transition: 0.2s;
+  }
+  .content a:hover {
+    color: #1c398e;
+    border-color: #1c398e;
+    background: whitesmoke;
+  }
+</style>
+
+<article class="max-w-[768px] mx-auto pt-[128px]">
+
+  <a href="/" class="block border-b-1 p-2 mb-[48px] transition hover hover:text-blue-900">← Kembali ke Halaman Utama</a>
+
+  <h1 class="text-4xl text-blue-900 font-semibold" style="margin-bottom: 2rem;">{{ .Title }}</h1>
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+</article>
+
+<div class="h-[256px]"></div>
+
+{{ end }}

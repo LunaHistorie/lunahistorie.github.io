@@ -1,0 +1,38 @@
+<footer class="flex flex-col px-[45px] py-[40px] bg-blue-950 gap-2 text-white">
+  {{ $brandTitle := resources.Get "brand/Brand Title (512).png" }}
+  <img class="w-fit h-[133px] object-contain" src="{{ $brandTitle.RelPermalink }}" alt="Luna Historie Brand Title">
+  <p>Copyright 2026 Luna Historie.</p>
+  <address class="not-italic">Jalan SMPN 3, Rawakalong, Gunung Sindur, Jawa Barat</address>
+  <p><b>contact email:</b> lunahistorie@gmail.com</p>
+  <nav class="flex flex-col gap-4 py-4">
+    <a class="font-semibold" href="/#hero">Home</a>
+    <a class="font-semibold" href="/about/">About</a>
+    <a class="font-semibold" href="/articles/">Articles</a>
+  </nav>
+  <nav class="flex gap-4">
+    <a href="#" class="hover:opacity-70 transition-opacity">
+      {{ $youtubeIcon := resources.Get "icons/YT.png" }}
+      <img style="filter: invert(100%);" width="20" src="{{ $youtubeIcon.RelPermalink }}" alt="YouTube">
+    </a>
+    <a href="#" class="hover:opacity-70 transition-opacity">
+      {{ $tiktokIcon := resources.Get "icons/TikTok.png" }}
+      <img style="filter: invert(100%);" width="20" src="{{ $tiktokIcon.RelPermalink }}" alt="TikTok">
+    </a>
+    <a href="#" class="hover:opacity-70 transition-opacity">
+      {{ $instagramIcon := resources.Get "icons/IG.png" }}
+      <img style="filter: invert(100%);" width="20" src="{{ $instagramIcon.RelPermalink }}" alt="Instagram">
+    </a>
+    <a href="#" class="hover:opacity-70 transition-opacity">
+      {{ $facebookIcon := resources.Get "icons/Facebook.png" }}
+      <img style="filter: invert(100%);" width="20" src="{{ $facebookIcon.RelPermalink }}" alt="Facebook">
+    </a>
+    <a href="#" class="hover:opacity-70 transition-opacity">
+      {{ $threadsIcon := resources.Get "icons/Threads.png" }}
+      <img style="filter: invert(100%);" width="20" src="{{ $threadsIcon.RelPermalink }}" alt="Threads">
+    </a>
+    <a href="#" class="hover:opacity-70 transition-opacity">
+      {{ $xIcon := resources.Get "icons/X.png" }}
+      <img style="filter: invert(100%);" width="20" src="{{ $xIcon.RelPermalink }}" alt="X (Twitter)">
+    </a>
+  </nav>
+</footer>
