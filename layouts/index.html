@@ -11,21 +11,22 @@
     class="hidden lg:block absolute translate-x-[64px] bottom-0 right-0 h-screen w-auto object-cover origin-bottom-right scale-75 xl:scale-100"
     src="{{ $napoleonImage.RelPermalink }}"
     alt="A painting of Napoleon crossing the alps">
-  <div class="absolute -translate-x-1/2 left-1/2 lg:-translate-x-0 lg:left-0 min-w-[350px] w-fit mt-[128px] lg:mx-[56px] lg:mt-[171px]">
-    <h1 class="text-blue-950 text-[36px]/[42px] lg:text-[64px]/[77px] font-semibold flex flex-col">
+  <div class="absolute -translate-x-1/2 left-1/2 lg:-translate-x-0 lg:left-0 w-full px-6 lg:pl-0 mt-[128px] lg:mx-[56px] lg:mt-[171px] text-center lg:text-left">
+    <h1 class="text-blue-950 text-[24px] md:text-[36px] lg:text-[64px] leading-[1.1] font-semibold flex flex-col">
       <span>Membahas Sejarah</span>
       <span>Peristiwa-Peristiwa</span>
       <span>Menarik Pada</span>
       <span>Setiap Bulannya.</span>
     </h1>
-    <span class="text-blue-950 text-[20px] lg:text-[32px] font-semibold block mt-4 lg:mt-[24px]">Salutations, Luna Historien!</span>
+    <span class="text-blue-950 text-[15px] md:text-[20px] lg:text-[32px] font-semibold block mt-4 lg:mt-[24px]">Salutations, Luna Historien!</span>
     <a
-      class="font-semibold inline-block px-5 py-4 lg:px-[25px] lg:py-[16px] mt-6 lg:mt-[32px] text-white bg-blue-900 border-blue-950 border-1 inset-shadow-sm transition
-              hover:bg-blue-700 hover:border-blue-600"
+      class="font-semibold inline-block px-5 py-4 lg:px-[25px] lg:py-[16px] mt-6 lg:mt-[32px] scale-[0.75] md:scale-[1]
+            text-white bg-blue-900 border-blue-950 border-1 inset-shadow-sm transition
+            hover:bg-blue-700 hover:border-blue-600"
       href="#latest-article">See Our Latest Article →</a>
     <div class="mt-8 lg:hidden">
       <p class="text-sm font-semibold text-slate-800 mb-2">See us on other Platform</p>
-      <div class="flex items-center gap-3 text-slate-900">
+      <div class="flex items-center gap-3 text-slate-900 justify-center lg:justify-start">
         <a href="https://youtube.com/@LunaHistorie" class="hover:opacity-70 transition-opacity">
           {{ $youtubeIcon := resources.Get "icons/YT.png" }}
           <img width="20" src="{{ $youtubeIcon.RelPermalink }}" alt="YouTube">

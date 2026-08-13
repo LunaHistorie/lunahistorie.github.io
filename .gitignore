@@ -53,6 +53,7 @@ build/Release
 
 # Build directories
 public
+private
 dist
 
 # Dependency directory
