@@ -10,6 +10,7 @@ categories:
 tags:
   - Sejarah
   - Eropa
+  - Perang
   - Prancis
   - Jerman
 ---
