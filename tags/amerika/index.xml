@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Amerika on </title>
+		<link>/tags/amerika/</link>
+		<description>Recent content in Amerika on </description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/amerika/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>POV: Kamu Jadi Orang Pertama yang Berjalan di Bulan...</title>
+				<link>/articles/2026_07_20_pendaratan_apollo/</link>
+				<pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/articles/2026_07_20_pendaratan_apollo/</guid>
+				<description>Mengulas kembali momen bersejarah Apollo 11 pada 20 Juli 1969, detik-detik menegangkan pendaratan Neil Armstrong di Bulan, rintangan yang nyaris menggagalkan misi, serta dampak luar biasa bagi peradaban manusia.</description>
+			</item>
+			<item>
+				<title>Tragedi Uji Coba Trinity: Detik-Detik Lahirnya Era Nuklir yang Mengubah Dunia</title>
+				<link>/articles/2026_07_16_trinity_test/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/articles/2026_07_16_trinity_test/</guid>
+				<description>Mengulas peristiwa bersejarah uji coba bom atom pertama di gurun New Mexico pada 16 Juli 1945 melalui Proyek Manhattan pimpinan J. Robert Oppenheimer, ledakan dahsyat yang mengawali era nuklir, hingga dilema moral dan dampaknya bagi peradaban manusia.</description>
+			</item>
+	</channel>
+</rss>

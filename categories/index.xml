@@ -35,10 +35,59 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Sejarah Olahraga</title>
+				<link>/categories/sejarah-olahraga/</link>
+				<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-olahraga/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Belanda</title>
+				<link>/categories/sejarah-belanda/</link>
+				<pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-belanda/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Arkeologi</title>
 				<link>/categories/arkeologi/</link>
-				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+				<pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/arkeologi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Sastra</title>
+				<link>/categories/sejarah-sastra/</link>
+				<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-sastra/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Dunia</title>
+				<link>/categories/sejarah-dunia/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-dunia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Teknologi</title>
+				<link>/categories/sejarah-teknologi/</link>
+				<pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-teknologi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Perekonomian</title>
+				<link>/categories/sejarah-perekonomian/</link>
+				<pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-perekonomian/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Romawi</title>
+				<link>/categories/sejarah-romawi/</link>
+				<pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-romawi/</guid>
 				<description></description>
 			</item>
 	</channel>
