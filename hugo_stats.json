@@ -207,6 +207,7 @@
       "md:text-base",
       "md:w-1/2",
       "min-h-screen",
+      "ml-4",
       "ml-[56px]",
       "mr-2",
       "mt-4",

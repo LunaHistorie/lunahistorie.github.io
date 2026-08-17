@@ -36,22 +36,31 @@
   <!-- Categories & Tags -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-6">
 
-    <!-- Archive Bulan -->
+    <!-- Archive -->
     <section class="mt-8">
       <h2 class="font-semibold text-xl mb-4">
         Archive
       </h2>
 
-      <div class="flex flex-wrap gap-x-4 gap-y-2">
-        {{ range site.RegularPages.GroupByDate "January 2006" }}
-          <a
-            href="#"
-            class="hover:underline hover:opacity-70 transition-opacity"
-          >
-            {{ .Key }} ({{ len .Pages }})
-          </a>
-        {{ end }}
-      </div>
+      {{ range (where site.RegularPages "Section" "articles").GroupByDate "2006" }}
+
+        {{ $year := .Key }}
+
+        <div class="mb-2">
+          <span class="font-semibold">{{ .Key }}</span>
+          <div class="flex flex-wrap gap-x-4 gap-y-2 ml-4">
+            {{ range .Pages.GroupByDate "January" }}
+              <a
+                href="/archive/{{ $year }}/{{ .Key | urlize }}/"
+                class="hover:underline hover:opacity-70 transition-opacity"
+              >
+                {{ .Key }} ({{ len .Pages }})
+              </a>
+            {{ end }}
+          </div>
+        </div>
+
+      {{ end }}
     </section>
 
     <!-- Categories -->
