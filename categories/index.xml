@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Categories on </title>
-		<link>//localhost:1313/categories/</link>
-		<description>Recent content in Categories on </description>
+		<title>Kategori on </title>
+		<link>/categories/</link>
+		<description>Recent content in Kategori on </description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
 		
 		
 		
-			<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sejarah Eropa</title>
+				<link>/categories/sejarah-eropa/</link>
+				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Indonesia</title>
+				<link>/categories/sejarah-indonesia/</link>
+				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Asia</title>
+				<link>/categories/sejarah-asia/</link>
+				<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-asia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Arkeologi</title>
+				<link>/categories/arkeologi/</link>
+				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/arkeologi/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>
