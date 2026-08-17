@@ -3,6 +3,15 @@ title: "Eksekusi Keluarga Romanov"
 date: 2026-07-17
 image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Russian_Imperial_Family_1913.jpg"
 summary: "Pada 17 Juli 1918, berakhir sudah lebih dari tiga abad kekuasaan Dinasti Romanov. Namun kisah mereka bukan sekadar tentang jatuhnya sebuah kerajaan, melainkan juga tentang bagaimana revolusi, perang saudara, dan ketakutan dapat mengubah sebuah keluarga menjadi simbol dari salah satu tragedi paling dikenang dalam sejarah Rusia.Bertahun-tahun kemudian, misteri mengenai nasib mereka baru mulai terpecahkan melalui penyelidikan ilmiah dan analisis DNA. Hingga hari ini, kisah Romanov masih menjadi pengingat bahwa sejarah tidak pernah sesederhana hitam dan putih. Menurutmu, apakah tindakan tersebut bisa dibenarkan dalam situasi revolusi, atau tetap merupakan tragedi kemanusiaan?"
+
+categories:
+  - Sejarah Eropa
+
+tags:
+  - Sejarah
+  - Eropa
+  - Kerajaan
+  - Russia
 ---
 
 # Satu Keluarga Kekaisaran Rusia Hilang Selamanya.

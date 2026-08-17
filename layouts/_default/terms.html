@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="max-w-[1024px] mx-auto pt-[80px] md:pt-[128px] pb-[128px] px-4 md:px-8">
+
+  <a href="/" class="block border-b-1 p-2 mb-[24px] hover:text-blue-900">
+    ← Kembali Ke Halaman Utama
+  </a>
+
+  <h1 class="text-[48px] md:text-[80px] text-blue-950 font-semibold">
+    {{ .Title }}
+  </h1>
+
+  <div class="flex flex-wrap gap-3 mt-[48px]">
+
+    {{ range .Data.Terms.Alphabetical }}
+      <a
+        href="{{ .Page.RelPermalink }}"
+        class="px-4 py-2 border border-gray-400 hover:bg-blue-950 hover:text-white transition"
+      >
+        {{ .Page.Title }}
+        <span class="opacity-60">({{ .Count }})</span>
+      </a>
+    {{ end }}
+
+  </div>
+
+</div>
+
+{{ end }}

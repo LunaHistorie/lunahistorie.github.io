@@ -3,6 +3,14 @@ title: "Nusantara: Ribuan Tahun Sebelum Indonesia"
 date: 2026-08-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Borobudur_2008.JPG/1280px-Borobudur_2008.JPG?utm_source=id.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
 summary: "Indonesia tidak muncul begitu saja pada tahun 1945. Jauh sebelumnya, Nusantara telah melewati ribuan tahun perjalanan, mulai dari manusia purba, jalur rempah, kerajaan besar, masuknya Islam, kolonialisme, hingga akhirnya merdeka."
+
+categories:
+  - Sejarah Indonesia
+
+tags:
+  - Sejarah
+  - Asia
+  - Indonesia
 ---
 
 # Nusantara: Ribuan Tahun Sebelum Indonesia

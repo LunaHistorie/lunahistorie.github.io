@@ -21,6 +21,43 @@
 
 </article>
 
+<div class="max-w-[768px] mx-auto pt-[32px] px-4 md:px-0">
+
+  {{ with .Params.categories }}
+    <div class="flex flex-wrap items-center gap-2 mb-3">
+      <span class="font-semibold mr-2">Kategori:</span>
+
+      {{ range . }}
+        {{ $term := urlize . }}
+        <a
+          href="{{ printf "/categories/%s/" $term | relURL }}"
+          class="px-3 py-1 border border-gray-400 bg-gray-100 hover:bg-blue-950 hover:text-white transition"
+        >
+          {{ . }}
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+
+  {{ with .Params.tags }}
+    <div class="flex flex-wrap items-center gap-2">
+      <span class="font-semibold mr-2">Tags:</span>
+
+      {{ range . }}
+        {{ $term := urlize . }}
+        <a
+          href="{{ printf "/tags/%s/" $term | relURL }}"
+          class="px-3 py-1 border border-gray-400 bg-gray-100 hover:bg-blue-950 hover:text-white transition"
+        >
+          #{{ . }}
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+</div>
+
 {{ $current := . }}
 {{ $currentDate := .Date }}
 {{ $currentPermalink := .Permalink }}

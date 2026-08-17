@@ -3,6 +3,15 @@ title: Sejarah Bendera Singapura dan Kemiripannya dengan Indonesia
 date: 2026-08-04
 image: "https://upload.wikimedia.org/wikipedia/commons/7/77/2012_Flag_of_Singapore_Photo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
 summary: "Bendera Singapura sekilas terlihat mirip dengan Sang Merah Putih Indonesia. Namun, kemiripan tersebut bukan hasil peniruan. Keduanya memiliki sejarah, makna warna, serta simbol yang berbeda, mulai dari proses pembentukan identitas Singapura pada 1959 hingga makna bulan sabit dan lima bintang."
+
+categories:
+  - Sejarah Asia
+
+tags:
+  - Sejarah
+  - Asia
+  - Indonesia
+  - Singapura
 ---
 
 # Sejarah Bendera Singapura dan Kemiripannya dengan Indonesia

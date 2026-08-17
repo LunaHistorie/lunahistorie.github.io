@@ -1,38 +1,185 @@
 <footer class="flex flex-col px-6 md:px-[45px] py-[40px] bg-blue-950 gap-2 text-white">
+
   {{ $brandTitle := resources.Get "brand/Brand Title (512).png" }}
-  <img class="w-fit h-[133px] object-contain" src="{{ $brandTitle.RelPermalink }}" alt="Luna Historie Brand Title">
+  <img
+    class="w-fit h-[133px] object-contain"
+    src="{{ $brandTitle.RelPermalink }}"
+    alt="Luna Historie Brand Title"
+  >
+
   <p>Copyright 2026 Luna Historie.</p>
-  <address class="not-italic">Jalan SMPN 3, Rawakalong, Gunung Sindur, Jawa Barat</address>
-  <p><b>contact email:</b> lunahistorie@gmail.com</p>
+
+  <address class="not-italic">
+    Jalan SMPN 3, Rawakalong, Gunung Sindur, Jawa Barat
+  </address>
+
+  <p>
+    <b>contact email:</b> lunahistorie@gmail.com
+  </p>
+
+
+  <!-- Main Navigation -->
   <nav class="flex flex-col gap-4 py-4">
-    <a class="font-semibold" href="/#hero">Home</a>
-    <a class="font-semibold" href="/about/">About</a>
-    <a class="font-semibold" href="/articles/">Articles</a>
+    <a class="font-semibold hover:opacity-70 transition-opacity" href="/#hero">
+      Home
+    </a>
+
+    <a class="font-semibold hover:opacity-70 transition-opacity" href="/about/">
+      About
+    </a>
+
+    <a class="font-semibold hover:opacity-70 transition-opacity" href="/articles/">
+      Articles
+    </a>
   </nav>
-  <nav class="flex gap-4">
-    <a href="https://youtube.com/@LunaHistorie" class="hover:opacity-70 transition-opacity">
+
+  <!-- Categories & Tags -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-6">
+
+    <!-- Archive Bulan -->
+    <section class="mt-8">
+      <h2 class="font-semibold text-xl mb-4">
+        Archive
+      </h2>
+
+      <div class="flex flex-wrap gap-x-4 gap-y-2">
+        {{ range site.RegularPages.GroupByDate "January 2006" }}
+          <a
+            href="#"
+            class="hover:underline hover:opacity-70 transition-opacity"
+          >
+            {{ .Key }} ({{ len .Pages }})
+          </a>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section>
+      <h2 class="font-semibold text-xl mb-4">
+        Categories
+      </h2>
+
+      <nav class="flex flex-wrap gap-x-4 gap-y-2">
+        {{ range .Site.Taxonomies.categories.Alphabetical }}
+          <a
+            href="{{ .Page.RelPermalink }}"
+            class="hover:underline hover:opacity-70 transition-opacity"
+          >
+            {{ .Page.Title }}
+          </a>
+        {{ end }}
+      </nav>
+    </section>
+
+    <!-- Tags -->
+    <section>
+      <h2 class="font-semibold text-xl mb-4">
+        Tags
+      </h2>
+
+      <nav class="flex flex-wrap gap-x-4 gap-y-2">
+        {{ range .Site.Taxonomies.tags.Alphabetical }}
+          <a
+            href="{{ .Page.RelPermalink }}"
+            class="hover:underline hover:opacity-70 transition-opacity"
+          >
+            #{{ .Page.Title }}
+          </a>
+        {{ end }}
+      </nav>
+    </section>
+
+  </div>
+
+
+  <!-- Social Media -->
+  <nav class="flex gap-4 pt-4">
+
+    <a
+      href="https://youtube.com/@LunaHistorie"
+      class="hover:opacity-70 transition-opacity"
+      aria-label="YouTube"
+    >
       {{ $youtubeIcon := resources.Get "icons/YT.png" }}
-      <img style="filter: invert(100%);" width="20" src="{{ $youtubeIcon.RelPermalink }}" alt="YouTube">
+      <img
+        style="filter: invert(100%);"
+        width="20"
+        src="{{ $youtubeIcon.RelPermalink }}"
+        alt="YouTube"
+      >
     </a>
-    <a href="https://tiktok.com/@lunahistorie" class="hover:opacity-70 transition-opacity">
+
+    <a
+      href="https://tiktok.com/@lunahistorie"
+      class="hover:opacity-70 transition-opacity"
+      aria-label="TikTok"
+    >
       {{ $tiktokIcon := resources.Get "icons/TikTok.png" }}
-      <img style="filter: invert(100%);" width="20" src="{{ $tiktokIcon.RelPermalink }}" alt="TikTok">
+      <img
+        style="filter: invert(100%);"
+        width="20"
+        src="{{ $tiktokIcon.RelPermalink }}"
+        alt="TikTok"
+      >
     </a>
-    <a href="https://instagram.com/@luna_historie" class="hover:opacity-70 transition-opacity">
+
+    <a
+      href="https://instagram.com/@luna_historie"
+      class="hover:opacity-70 transition-opacity"
+      aria-label="Instagram"
+    >
       {{ $instagramIcon := resources.Get "icons/IG.png" }}
-      <img style="filter: invert(100%);" width="20" src="{{ $instagramIcon.RelPermalink }}" alt="Instagram">
+      <img
+        style="filter: invert(100%);"
+        width="20"
+        src="{{ $instagramIcon.RelPermalink }}"
+        alt="Instagram"
+      >
     </a>
-    <a href="https://facebook.com/profile.php?id=61591925993777&locale=id_ID" class="hover:opacity-70 transition-opacity">
+
+    <a
+      href="https://www.facebook.com/lunahistorie/"
+      class="hover:opacity-70 transition-opacity"
+      aria-label="Facebook"
+    >
       {{ $facebookIcon := resources.Get "icons/Facebook.png" }}
-      <img style="filter: invert(100%);" width="20" src="{{ $facebookIcon.RelPermalink }}" alt="Facebook">
+      <img
+        style="filter: invert(100%);"
+        width="20"
+        src="{{ $facebookIcon.RelPermalink }}"
+        alt="Facebook"
+      >
     </a>
-    <a href="https://threads.com/@luna_historie" class="hover:opacity-70 transition-opacity">
+
+    <a
+      href="https://threads.com/@luna_historie"
+      class="hover:opacity-70 transition-opacity"
+      aria-label="Threads"
+    >
       {{ $threadsIcon := resources.Get "icons/Threads.png" }}
-      <img style="filter: invert(100%);" width="20" src="{{ $threadsIcon.RelPermalink }}" alt="Threads">
+      <img
+        style="filter: invert(100%);"
+        width="20"
+        src="{{ $threadsIcon.RelPermalink }}"
+        alt="Threads"
+      >
     </a>
-    <a href="https://x.com/LunaHistorie" class="hover:opacity-70 transition-opacity">
+
+    <a
+      href="https://x.com/LunaHistorie"
+      class="hover:opacity-70 transition-opacity"
+      aria-label="X"
+    >
       {{ $xIcon := resources.Get "icons/X.png" }}
-      <img style="filter: invert(100%);" width="20" src="{{ $xIcon.RelPermalink }}" alt="X (Twitter)">
+      <img
+        style="filter: invert(100%);"
+        width="20"
+        src="{{ $xIcon.RelPermalink }}"
+        alt="X (Twitter)"
+      >
     </a>
+
   </nav>
+
 </footer>

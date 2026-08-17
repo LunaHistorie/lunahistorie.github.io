@@ -2,28 +2,111 @@
 
 <div class="max-w-[1024px] mx-auto pt-[80px] md:pt-[128px] pb-[128px] md:pb-[256px] px-4 md:px-8">
 
-  <a href="/" class="block border-b-1 p-2 mb-[24px] transition hover hover:text-blue-900">← Kembali Ke Halaman Utama</a>
+  <a href="/" class="block border-b-1 p-2 mb-[24px] transition hover hover:text-blue-900">
+    ← Kembali Ke Halaman Utama
+  </a>
 
-  <h1 class="text-[48px] md:text-[80px] lg:text-[128px] text-blue-950 font-semibold">Artikel</h1>
+  <h1 class="text-[48px] md:text-[80px] lg:text-[128px] text-blue-950 font-semibold">
+    Artikel
+  </h1>
 
   <div class="articles">
     {{ range .Pages }}
       <article class="card flex flex-col md:flex-row gap-4 border-b-1 group hover transition hover:bg-linear-to-t hover:from-blue-950/10 hover:to-white">
+
         {{ with .Params.image }}
         <img class="w-full md:w-1/2 aspect-1/1 object-cover" src="{{ . }}" alt="{{ $.Title }}">
         {{ end }}
+
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl md:text-4xl font-semibold group-hover transition group-hover:text-blue-950">{{ .Title }}</h2>
+
+          <!-- Categories -->
+          {{ with .Params.categories }}
+          <div class="flex flex-wrap gap-2">
+            {{ range . }}
+              <span class="text-sm font-semibold text-blue-900">
+                {{ . }}
+              </span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <h2 class="text-2xl md:text-4xl font-semibold group-hover transition group-hover:text-blue-950">
+            {{ .Title }}
+          </h2>
+
           <p class="text-justify">{{ .Summary }}</p>
-          <a class="block font-semibold p-4 bg-gray-200 border-1 border-gray-400 w-full md:w-1/2 inset-shadow-md transition
-                  hover:bg-slate-300 hover:border-slate-500"
-              href="{{ .RelPermalink }}">Baca Selengkapnya →</a>
+
+          <!-- Tags -->
+          {{ with .Params.tags }}
+          <div class="flex flex-wrap gap-2">
+            {{ range . }}
+              <span class="text-sm px-2 py-1 bg-gray-200 border border-gray-300">
+                #{{ . }}
+              </span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <a
+            class="block font-semibold p-4 bg-gray-200 border-1 border-gray-400 w-full md:w-1/2 inset-shadow-md transition
+                   hover:bg-slate-300 hover:border-slate-500"
+            href="{{ .RelPermalink }}"
+          >
+            Baca Selengkapnya →
+          </a>
+
         </div>
-      </article> <br>
+      </article>
+      <br>
     {{ end }}
   </div>
 
-  <a href="/" class="block border-b-1 p-2 mb-[24px] transition hover hover:text-blue-900">← Kembali Ke Halaman Utama</a>
+  <div class="my-[60px] border-t-1 pt-[30px]">
+    <!-- Categories -->
+    <section class="mb-[40px]">
+      <h2 class="font-semibold mb-4">
+        Kategori
+      </h2>
+
+      <div class="flex flex-wrap gap-2">
+        {{ range .Site.Taxonomies.categories.Alphabetical }}
+          <a
+            href="{{ .Page.RelPermalink }}"
+            class="px-3 py-2 border border-gray-400 bg-gray-100 text-xs
+                  hover:bg-blue-950 hover:text-white transition"
+          >
+            {{ .Page.Title }}
+            <span class="opacity-50">({{ .Count }})</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Tags -->
+    <section>
+      <h2 class="font-semibold mb-4">
+        Tags
+      </h2>
+
+      <div class="flex flex-wrap gap-2">
+        {{ range .Site.Taxonomies.tags.Alphabetical }}
+          <a
+            href="{{ .Page.RelPermalink }}"
+            class="px-3 py-2 border border-gray-400 bg-gray-100 text-xs
+                  hover:bg-blue-950 hover:text-white transition"
+          >
+            #{{ .Page.Title }}
+            <span class="opacity-50">({{ .Count }})</span>
+          </a>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+
+  <a href="/" class="block border-b-1 p-2 mb-[24px] transition hover hover:text-blue-900">
+    ← Kembali Ke Halaman Utama
+  </a>
 
 </div>
 

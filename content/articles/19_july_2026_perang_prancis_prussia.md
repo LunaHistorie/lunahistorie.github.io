@@ -3,6 +3,15 @@ title: "Perang Prancis Prussia yang memicu Unifikasi Jerman"
 date: 2026-07-19
 image: "https://upload.wikimedia.org/wikipedia/commons/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg"
 summary: "Tahukah kamu kalau salah satu perang paling berpengaruh di Eropa ternyata dipicu oleh sebuah telegram yang diedit? Perang Prancis-Prussia (1870–1871) bukan hanya mengubah peta Eropa, tetapi juga melahirkan Kekaisaran Jerman dan menanam benih dendam yang akhirnya ikut membuka jalan menuju Perang Dunia I. Peristiwa ini membuktikan bahwa politik, diplomasi, dan informasi bisa sama mematikannya dengan senjata di medan perang."
+
+categories:
+  - Sejarah Eropa
+
+tags:
+  - Sejarah
+  - Eropa
+  - Prancis
+  - Jerman
 ---
 
 # Cuma Gara-Gara Telegram, Prancis Kehilangan Tahta dan Jerman Lahir?

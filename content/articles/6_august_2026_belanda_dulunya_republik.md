@@ -3,6 +3,17 @@ title: "Belanda Ternyata Pernah Dipaksa Jadi Kerajaan"
 date: 2026-08-06
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dans_om_de_Vrijheidsboom_%28in_Groningen%29%2C_Johann_Ludwig_Hauck_1795.jpg/1280px-Dans_om_de_Vrijheidsboom_%28in_Groningen%29%2C_Johann_Ludwig_Hauck_1795.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
 summary: "Belanda selama berabad-abad merupakan sebuah republik sebelum Napoleon mengubahnya menjadi kerajaan pada 1806 dan menunjuk adiknya, Louis Bonaparte, sebagai raja. Setelah kerajaan itu dibubarkan pada 1810, monarki Belanda modern akhirnya lahir kembali setelah kekalahan Napoleon."
+
+categories:
+  - Sejarah Eropa
+
+tags:
+  - Sejarah
+  - Eropa
+  - Republik
+  - Kerajaan
+  - Belanda
+  - Prancis
 ---
 
 # Belanda Ternyata Pernah Dipaksa Jadi Kerajaan

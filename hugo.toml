@@ -22,3 +22,7 @@ title = 'Luna Historie'
 
 [params]
 description = 'Jelajahi sejarah lewat cerita visual'
+
+[taxonomies]
+category = "categories"
+tag = "tags"

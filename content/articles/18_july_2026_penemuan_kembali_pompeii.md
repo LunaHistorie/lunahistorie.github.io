@@ -3,6 +3,13 @@ title: "Penemuan Kembali Pompeii"
 date: 2026-07-18
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Temple_of_Jupiter_side_view_Pompeii.jpg/1280px-Temple_of_Jupiter_side_view_Pompeii.jpg"
 summary: "Selama hampir 1.700 tahun, Pompeii benar-benar menghilang dari peta dunia. Kota yang dulu ramai itu terkubur abu vulkanik hingga akhirnya ditemukan kembali secara tidak sengaja pada abad ke-18.Yang membuat Pompeii begitu luar biasa bukan hanya tragedinya, tetapi bagaimana kota ini menjadi kapsul waktu yang memperlihatkan kehidupan sehari-hari bangsa Romawi dengan detail yang hampir mustahil ditemukan di tempat lain.Dari jalanan, rumah, lukisan, hingga makanan yang belum sempat disantap, semuanya seolah membeku dalam satu momen sejarah.Pompeii membuktikan bahwa kadang penemuan terbesar bukanlah menemukan sesuatu yang baru, melainkan menemukan kembali sesuatu yang telah lama dilupakan.Menurutmu, apa penemuan arkeologi paling menakjubkan sepanjang sejarah?"
+
+categories:
+  - Arkeologi
+
+tags:
+  - Arkeologi
+  - Kota Hilang
 ---
 
 # Kota Ini Hilang Hampir 1.700 Tahun... Lalu Ditemukan Lagi dalam Keadaan Membeku oleh Waktu.
