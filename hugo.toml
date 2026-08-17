@@ -16,6 +16,7 @@
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
 
+paginate = 10
 baseURL = 'https://lunahistorie.github.io/'
 locale = 'id'
 title = 'Luna Historie'
