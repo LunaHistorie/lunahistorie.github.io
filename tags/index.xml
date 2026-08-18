@@ -10,21 +10,42 @@
 		
 		
 		
-			<lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Eropa</title>
+				<link>/tags/eropa/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah</title>
+				<link>/tags/sejarah/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sejarah/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Indonesia</title>
+				<link>/tags/indonesia/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Seni</title>
+				<link>/tags/seni/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/seni/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Belanda</title>
 				<link>/tags/belanda/</link>
 				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/belanda/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Eropa</title>
-				<link>/tags/eropa/</link>
-				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/eropa/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -49,13 +70,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Sejarah</title>
-				<link>/tags/sejarah/</link>
-				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/sejarah/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Asia</title>
 				<link>/tags/asia/</link>
 				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
@@ -63,17 +77,24 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Indonesia</title>
-				<link>/tags/indonesia/</link>
-				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/indonesia/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Singapura</title>
 				<link>/tags/singapura/</link>
 				<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/singapura/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Amerika</title>
+				<link>/tags/amerika/</link>
+				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/amerika/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Teknologi</title>
+				<link>/tags/teknologi/</link>
+				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/teknologi/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -133,24 +154,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Amerika</title>
-				<link>/tags/amerika/</link>
-				<pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/amerika/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Spanyol</title>
 				<link>/tags/spanyol/</link>
 				<pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/spanyol/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Teknologi</title>
-				<link>/tags/teknologi/</link>
-				<pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/teknologi/</guid>
 				<description></description>
 			</item>
 			<item>
