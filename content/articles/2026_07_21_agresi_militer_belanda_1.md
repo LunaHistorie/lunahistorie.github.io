@@ -56,8 +56,8 @@ Rangkaian peristiwa Agresi Militer Belanda mengajarkan kita bahwa mempertahankan
 
 ## Referensi
 
-* George McTurnan Kahin — Nationalism and Revolution in Indonesia[cite: 1]
-* M.C. Ricklefs — A History of Modern Indonesia Since c.1200[cite: 1]
-* Anthony Reid — The Indonesian National Revolution[cite: 1]
-* United Nations Digital Library — Indonesian Question[cite: 1]
-* Arsip Nasional Republik Indonesia (ANRI)[cite: 1]
+* George McTurnan Kahin — Nationalism and Revolution in Indonesia
+* M.C. Ricklefs — A History of Modern Indonesia Since c.1200
+* Anthony Reid — The Indonesian National Revolution
+* United Nations Digital Library — Indonesian Question
+* Arsip Nasional Republik Indonesia (ANRI)

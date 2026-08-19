@@ -66,9 +66,9 @@ Kadang sejarah berubah menjadi slogan yang terdengar sederhana. Padahal kenyataa
 
 ## Referensi
 
-* Anthony Reid. *The Blood of the People: Revolution and the End of Traditional Rule in Northern Sumatra.*[cite: 1]
-* M.C. Ricklefs. *A History of Modern Indonesia Since c.1200.*[cite: 1]
-* Ibrahim Alfian. *Perang di Jalan Allah: Perang Aceh 1873–1912.*[cite: 1]
-* Peter Carey. *Indonesia: The British Connection with the Malay World.*[cite: 1]
-* Encyclopaedia Britannica – Aceh War.[cite: 1]
-* Arsip Nasional Republik Indonesia (ANRI).[cite: 1]
+* Anthony Reid. *The Blood of the People: Revolution and the End of Traditional Rule in Northern Sumatra.*
+* M.C. Ricklefs. *A History of Modern Indonesia Since c.1200.*
+* Ibrahim Alfian. *Perang di Jalan Allah: Perang Aceh 1873–1912.*
+* Peter Carey. *Indonesia: The British Connection with the Malay World.*
+* Encyclopaedia Britannica – Aceh War.
+* Arsip Nasional Republik Indonesia (ANRI).
