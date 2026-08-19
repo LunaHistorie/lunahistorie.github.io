@@ -10,21 +10,35 @@
 		
 		
 		
-			<lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Sejarah Eropa</title>
-				<link>/categories/sejarah-eropa/</link>
-				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/sejarah-eropa/</guid>
+				<title>Sejarah Asia</title>
+				<link>/categories/sejarah-asia/</link>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-asia/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Sejarah Indonesia</title>
 				<link>/categories/sejarah-indonesia/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/sejarah-indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Afrika</title>
+				<link>/categories/sejarah-afrika/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-afrika/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Eropa</title>
+				<link>/categories/sejarah-eropa/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-eropa/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -32,13 +46,6 @@
 				<link>/categories/sejarah-seni/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/sejarah-seni/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Sejarah Asia</title>
-				<link>/categories/sejarah-asia/</link>
-				<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/sejarah-asia/</guid>
 				<description></description>
 			</item>
 			<item>

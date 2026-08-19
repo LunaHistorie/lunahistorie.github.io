@@ -10,28 +10,98 @@
 		
 		
 		
-			<lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Eropa</title>
-				<link>/tags/eropa/</link>
-				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/eropa/</guid>
+				<title>Asia</title>
+				<link>/tags/asia/</link>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/asia/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>Sejarah</title>
-				<link>/tags/sejarah/</link>
-				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/sejarah/</guid>
+				<title>Belanda</title>
+				<link>/tags/belanda/</link>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/belanda/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Indonesia</title>
 				<link>/tags/indonesia/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jepang</title>
+				<link>/tags/jepang/</link>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/jepang/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah</title>
+				<link>/tags/sejarah/</link>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sejarah/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Afrika</title>
+				<link>/tags/afrika/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/afrika/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Belgia</title>
+				<link>/tags/belgia/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/belgia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Eropa</title>
+				<link>/tags/eropa/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Kekaisaran Romawi Suci</title>
+				<link>/tags/kekaisaran-romawi-suci/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/kekaisaran-romawi-suci/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Militer</title>
+				<link>/tags/militer/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/militer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Monaco</title>
+				<link>/tags/monaco/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/monaco/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Yugoslavia</title>
+				<link>/tags/yugoslavia/</link>
+				<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/yugoslavia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Andorra</title>
+				<link>/tags/andorra/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/andorra/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -39,13 +109,6 @@
 				<link>/tags/seni/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/seni/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Belanda</title>
-				<link>/tags/belanda/</link>
-				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/belanda/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -67,13 +130,6 @@
 				<link>/tags/republik/</link>
 				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/republik/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Asia</title>
-				<link>/tags/asia/</link>
-				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/asia/</guid>
 				<description></description>
 			</item>
 			<item>
