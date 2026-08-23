@@ -10,14 +10,105 @@
 		
 		
 		
-			<lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Dunia</title>
+				<link>/tags/dunia/</link>
+				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/dunia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Makanan</title>
+				<link>/tags/makanan/</link>
+				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/makanan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah</title>
+				<link>/tags/sejarah/</link>
+				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sejarah/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Militer</title>
+				<link>/tags/militer/</link>
+				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/militer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Prancis</title>
+				<link>/tags/prancis/</link>
+				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/prancis/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Seni</title>
+				<link>/tags/seni/</link>
+				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/seni/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ekonomi</title>
+				<link>/tags/ekonomi/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/ekonomi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Indonesia</title>
+				<link>/tags/indonesia/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Kemerdekaan</title>
+				<link>/tags/kemerdekaan/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/kemerdekaan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sosial</title>
+				<link>/tags/sosial/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sosial/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Asia</title>
 				<link>/tags/asia/</link>
-				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/asia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Luar Angkasa</title>
+				<link>/tags/luar-angkasa/</link>
+				<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/luar-angkasa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Teknologi</title>
+				<link>/tags/teknologi/</link>
+				<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/teknologi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jepang</title>
+				<link>/tags/jepang/</link>
+				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/jepang/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -25,27 +116,6 @@
 				<link>/tags/belanda/</link>
 				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/belanda/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Indonesia</title>
-				<link>/tags/indonesia/</link>
-				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/indonesia/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Jepang</title>
-				<link>/tags/jepang/</link>
-				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/jepang/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Sejarah</title>
-				<link>/tags/sejarah/</link>
-				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/sejarah/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -77,13 +147,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Militer</title>
-				<link>/tags/militer/</link>
-				<pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/militer/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Monaco</title>
 				<link>/tags/monaco/</link>
 				<pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
@@ -105,24 +168,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Seni</title>
-				<link>/tags/seni/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/seni/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Kerajaan</title>
 				<link>/tags/kerajaan/</link>
 				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/kerajaan/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Prancis</title>
-				<link>/tags/prancis/</link>
-				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/prancis/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -144,13 +193,6 @@
 				<link>/tags/amerika/</link>
 				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/amerika/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Teknologi</title>
-				<link>/tags/teknologi/</link>
-				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/teknologi/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -196,13 +238,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Dunia</title>
-				<link>/tags/dunia/</link>
-				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/dunia/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Perang</title>
 				<link>/tags/perang/</link>
 				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
@@ -235,13 +270,6 @@
 				<link>/tags/russia/</link>
 				<pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/russia/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Ekonomi</title>
-				<link>/tags/ekonomi/</link>
-				<pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/ekonomi/</guid>
 				<description></description>
 			</item>
 			<item>
