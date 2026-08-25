@@ -10,28 +10,49 @@
 		
 		
 		
-			<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Sejarah Dunia</title>
-				<link>/categories/sejarah-dunia/</link>
-				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/sejarah-dunia/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Sejarah Seni</title>
-				<link>/categories/sejarah-seni/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/sejarah-seni/</guid>
+				<title>Sejarah Eropa</title>
+				<link>/categories/sejarah-eropa/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-eropa/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Sejarah Indonesia</title>
 				<link>/categories/sejarah-indonesia/</link>
-				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/sejarah-indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Seni</title>
+				<link>/categories/sejarah-seni/</link>
+				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-seni/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Seragam</title>
+				<link>/categories/sejarah-seragam/</link>
+				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-seragam/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Tanaman</title>
+				<link>/categories/sejarah-tanaman/</link>
+				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-tanaman/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Dunia</title>
+				<link>/categories/sejarah-dunia/</link>
+				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-dunia/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -60,13 +81,6 @@
 				<link>/categories/sejarah-afrika/</link>
 				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/sejarah-afrika/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Sejarah Eropa</title>
-				<link>/categories/sejarah-eropa/</link>
-				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/categories/sejarah-eropa/</guid>
 				<description></description>
 			</item>
 			<item>

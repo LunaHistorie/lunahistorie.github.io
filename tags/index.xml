@@ -10,9 +10,79 @@
 		
 		
 		
-			<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Belarussia</title>
+				<link>/tags/belarussia/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/belarussia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Eropa</title>
+				<link>/tags/eropa/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Indonesia</title>
+				<link>/tags/indonesia/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/indonesia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Militer</title>
+				<link>/tags/militer/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/militer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Russia</title>
+				<link>/tags/russia/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/russia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah</title>
+				<link>/tags/sejarah/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sejarah/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Seni</title>
+				<link>/tags/seni/</link>
+				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/seni/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jerman</title>
+				<link>/tags/jerman/</link>
+				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/jerman/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Perang Dunia II</title>
+				<link>/tags/perang-dunia-ii/</link>
+				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/perang-dunia-ii/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tanaman</title>
+				<link>/tags/tanaman/</link>
+				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/tanaman/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Dunia</title>
 				<link>/tags/dunia/</link>
@@ -28,20 +98,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Sejarah</title>
-				<link>/tags/sejarah/</link>
-				<pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/sejarah/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Militer</title>
-				<link>/tags/militer/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/militer/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Prancis</title>
 				<link>/tags/prancis/</link>
 				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
@@ -49,24 +105,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Seni</title>
-				<link>/tags/seni/</link>
-				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/seni/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Ekonomi</title>
 				<link>/tags/ekonomi/</link>
 				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/ekonomi/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Indonesia</title>
-				<link>/tags/indonesia/</link>
-				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/indonesia/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -130,13 +172,6 @@
 				<link>/tags/belgia/</link>
 				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/belgia/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Eropa</title>
-				<link>/tags/eropa/</link>
-				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/eropa/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -252,24 +287,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Jerman</title>
-				<link>/tags/jerman/</link>
-				<pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/jerman/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Kota Hilang</title>
 				<link>/tags/kota-hilang/</link>
 				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/kota-hilang/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Russia</title>
-				<link>/tags/russia/</link>
-				<pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/russia/</guid>
 				<description></description>
 			</item>
 			<item>
