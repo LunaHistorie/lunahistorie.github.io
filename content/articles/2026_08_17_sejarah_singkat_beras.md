@@ -6,11 +6,13 @@ summary: "Dari tanaman liar di lembah sungai, beras berubah menjadi makanan poko
 
 categories:
   - Sejarah Asia
+  - Sejarah Tanaman
 
 tags:
   - Sejarah
   - Asia
   - Makanan
+  - Tanaman
 ---
 
 # Kenapa Beras Jadi Raja Meja Asia?

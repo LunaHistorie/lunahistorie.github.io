@@ -6,11 +6,13 @@ summary: "Mengulas perjalanan panjang gandum yang bermula dari tanaman liar di B
 
 categories:
   - Sejarah Dunia
+  - Sejarah Tanaman
 
 tags:
   - Sejarah
   - Dunia
   - Makanan
+  - Tanaman
 ---
 
 # Sejarah Singkat Gandum, Makanan Pokok Se-Eropa

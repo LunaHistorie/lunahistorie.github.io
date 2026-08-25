@@ -6,6 +6,7 @@ summary: "Mengapa tentara era Napoleon tampil begitu anggun dan warna-warni di m
 
 categories:
   - Sejarah Eropa
+  - Sejarah Seragam
 
 tags:
   - Sejarah
