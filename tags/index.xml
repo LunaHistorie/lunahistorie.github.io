@@ -10,21 +10,112 @@
 		
 		
 		
-			<lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Belarussia</title>
-				<link>/tags/belarussia/</link>
-				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/belarussia/</guid>
+				<title>Asia</title>
+				<link>/tags/asia/</link>
+				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/asia/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Eropa</title>
 				<link>/tags/eropa/</link>
-				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Kerajaan</title>
+				<link>/tags/kerajaan/</link>
+				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/kerajaan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah</title>
+				<link>/tags/sejarah/</link>
+				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sejarah/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Turki</title>
+				<link>/tags/turki/</link>
+				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/turki/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Turkmenistan</title>
+				<link>/tags/turkmenistan/</link>
+				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/turkmenistan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Agama</title>
+				<link>/tags/agama/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/agama/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Iberia</title>
+				<link>/tags/iberia/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/iberia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Islam</title>
+				<link>/tags/islam/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/islam/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jerman</title>
+				<link>/tags/jerman/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/jerman/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Militer</title>
+				<link>/tags/militer/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/militer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Portugal</title>
+				<link>/tags/portugal/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/portugal/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Prussia</title>
+				<link>/tags/prussia/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/prussia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Spanyol</title>
+				<link>/tags/spanyol/</link>
+				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/spanyol/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Belarussia</title>
+				<link>/tags/belarussia/</link>
+				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/belarussia/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -35,13 +126,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Militer</title>
-				<link>/tags/militer/</link>
-				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/militer/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Russia</title>
 				<link>/tags/russia/</link>
 				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
@@ -49,24 +133,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Sejarah</title>
-				<link>/tags/sejarah/</link>
-				<pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/sejarah/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Seni</title>
 				<link>/tags/seni/</link>
 				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/seni/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Jerman</title>
-				<link>/tags/jerman/</link>
-				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/jerman/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -123,13 +193,6 @@
 				<link>/tags/sosial/</link>
 				<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/sosial/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Asia</title>
-				<link>/tags/asia/</link>
-				<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/asia/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -203,13 +266,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Kerajaan</title>
-				<link>/tags/kerajaan/</link>
-				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/kerajaan/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Republik</title>
 				<link>/tags/republik/</link>
 				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
@@ -277,13 +333,6 @@
 				<link>/tags/perang/</link>
 				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/perang/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Spanyol</title>
-				<link>/tags/spanyol/</link>
-				<pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/spanyol/</guid>
 				<description></description>
 			</item>
 			<item>
