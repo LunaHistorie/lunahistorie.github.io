@@ -10,9 +10,79 @@
 		
 		
 		
-			<lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bendera</title>
+				<link>/tags/bendera/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/bendera/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Eropa</title>
+				<link>/tags/eropa/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Inggris</title>
+				<link>/tags/inggris/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/inggris/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Malaysia</title>
+				<link>/tags/malaysia/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/malaysia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Militer</title>
+				<link>/tags/militer/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/militer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah</title>
+				<link>/tags/sejarah/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/sejarah/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tokoh</title>
+				<link>/tags/tokoh/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/tokoh/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>USA</title>
+				<link>/tags/usa/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/usa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Denmark</title>
+				<link>/tags/denmark/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/denmark/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Greenland</title>
+				<link>/tags/greenland/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/tags/greenland/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Asia</title>
 				<link>/tags/asia/</link>
@@ -21,24 +91,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Eropa</title>
-				<link>/tags/eropa/</link>
-				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/eropa/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Kerajaan</title>
 				<link>/tags/kerajaan/</link>
 				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/kerajaan/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Sejarah</title>
-				<link>/tags/sejarah/</link>
-				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/sejarah/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -81,13 +137,6 @@
 				<link>/tags/jerman/</link>
 				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/tags/jerman/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Militer</title>
-				<link>/tags/militer/</link>
-				<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>/tags/militer/</guid>
 				<description></description>
 			</item>
 			<item>

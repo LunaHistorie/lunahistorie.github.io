@@ -10,21 +10,42 @@
 		
 		
 		
-			<lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Sejarah Asia</title>
 				<link>/categories/sejarah-asia/</link>
-				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/sejarah-asia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Bendera</title>
+				<link>/categories/sejarah-bendera/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-bendera/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Sejarah Eropa</title>
 				<link>/categories/sejarah-eropa/</link>
-				<pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>/categories/sejarah-eropa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Tokoh</title>
+				<link>/categories/sejarah-tokoh/</link>
+				<pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-tokoh/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejarah Koloni</title>
+				<link>/categories/sejarah-koloni/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>/categories/sejarah-koloni/</guid>
 				<description></description>
 			</item>
 			<item>
